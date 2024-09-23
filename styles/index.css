@@ -1,1 +1,92 @@
 
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(13, 1fr);
+    background-color: #2196F3;
+    padding: 10px;
+    gap: 15px;
+    width: 98vw;
+    height: 94vh;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 5px solid rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  .grid-item:hover {
+    background-color: rgb(255, 255, 255);
+  }
+  .grid-item-2 {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: none;
+    text-align: center;
+  }
+  .first {
+    grid-row: 1 / 4;
+    grid-column: 1 / 5;
+    background-color: blue;
+  }
+  .second {
+    grid-row: 1 / 7;
+    grid-column: 5 / 9;
+    background-color: rgb(98, 98, 235);
+  }
+  .third {
+    grid-row: 4 / 7;
+    grid-column: 1 / 5;
+    background-color: rgb(98, 98, 235);
+  }
+  .fourth {
+    grid-row: 7 / 11;
+    grid-column: 1 / 5;
+    background-color: blue;
+  }
+  .fifth {
+    grid-row: 1 / 3;
+    grid-column: 9 / 13;
+    background-color: blue;
+  }
+  .sixth {
+    grid-row: 3 / 5;
+    grid-column: 9 / 13;
+    background-color: rgb(99, 226, 212);
+  }
+  .seventh {
+    grid-row: 5 / 7;
+    grid-column: 9 / 13;
+    background-color: rgb(99, 226, 212);
+  }
+  .eigth {
+    grid-row: 7 / 9;
+    grid-column: 5 / 7;
+    background-color: blue;
+  }
+  .ninth {
+    grid-row: 9 / 11;
+    grid-column: 5 / 7;
+    background-color: rgb(98, 98, 235);
+  }
+  .tenth {
+    grid-row: 7 / 11;
+    grid-column: 7 / 11;
+    background-color: rgb(247, 196, 66);
+  }
+  .eleventh {
+    grid-row: 7 / 11;
+    grid-column: 11 / 13;
+    background-color: blue;
+  }
+  .twelveth {
+    grid-row: 11 / 14;
+    grid-column: 1 / 13;
+  }
+  .flex{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+  }
+  .text{
+    font-size: 50px;
+    margin-left: 10px;
+  }
